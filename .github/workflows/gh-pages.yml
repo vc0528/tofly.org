@@ -1,37 +1,44 @@
 name: Build and Deploy Jekyll site to GitHub Pages
-
 on:
   push:
     branches:
       - master
+
+# 添加權限設定
+permissions:
+  contents: write
 
 jobs:
   build-deploy:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4  # 更新到 v4
         with:
           fetch-depth: 0
-
+          
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
           ruby-version: 3.2
-
+          bundler-cache: true  # 加速安裝
+          
       - name: Install dependencies
         run: bundle install
-
+        
       - name: Build Jekyll site
         run: bundle exec jekyll build
-
+        
       - name: Check _site contents
-        run: ls -R _site
-
+        run: |
+          echo "=== _site directory contents ==="
+          ls -R _site
+          echo "=== _site size ==="
+          du -sh _site
+        
       - name: Deploy to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v6
+        uses: peaceiris/actions-gh-pages@v4  # 改用 v4（v6 可能太新）
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./_site
           publish_branch: gh-pages
-
