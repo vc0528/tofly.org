@@ -26,6 +26,9 @@ description: >- # used by seo meta and the atom feed
 url: ""
 logo: /assets/img/logo.png
 
+include:
+  - CNAME
+
 github:
   username: vc0528 # change to your GitHub username
 
