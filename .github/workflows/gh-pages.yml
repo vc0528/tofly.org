@@ -3,7 +3,7 @@ name: Build and Deploy Jekyll site to GitHub Pages
 on:
   push:
     branches:
-      - master   # 只要 push 到 master 就會觸發
+      - master
 
 jobs:
   build-deploy:
@@ -11,6 +11,8 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
 
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
@@ -22,6 +24,9 @@ jobs:
 
       - name: Build Jekyll site
         run: bundle exec jekyll build
+
+      - name: Check _site contents
+        run: ls -R _site
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v6
