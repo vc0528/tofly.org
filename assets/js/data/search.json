@@ -1,0 +1,40 @@
+[
+  
+  {
+    "title": "顯示全部的vm id 和vm name",
+    "url": "/tofly.org/posts/pve-show-cluster-vms/",
+    "categories": "資訊, Proxmox",
+    "tags": "Proxmox, 虛擬化",
+    "date": "2025-10-24 20:00:00 +0800",
+    "content": "Proxmox VE cluster , 當有節點離線時,無法得知該節點有哪些vm  shell script 待補"
+  },
+  
+  {
+    "title": "關於tofly",
+    "url": "/tofly.org/posts/about/",
+    "categories": "Blogging",
+    "tags": "about",
+    "date": "2025-10-24 10:37:00 +0800",
+    "content": "夢想飛行  雖然在資訊業, 但仍然渴望飛上天空"
+  },
+  
+  {
+    "title": "HPE H240 firmware 降版",
+    "url": "/tofly.org/posts/hpe-h240-firmware-downgrade/",
+    "categories": "資訊",
+    "tags": "H240, firmware",
+    "date": "2025-10-23 20:00:00 +0800",
+    "content": "HPE H240 在5.x版時, 對比較新的linux os 會出現不穩定的情況, 昇到最新版的7.2更是連裝linux都不行, 比較新的kernel無法安裝, 在DL20 裝到一半風扇聲像起飛一樣.  降版只能用SPP (Service pack for HPE ProLiant)"
+  },
+  
+  {
+    "title": "旟津半日遊",
+    "url": "/tofly.org/posts/%E6%97%9F%E6%B4%A5/",
+    "categories": "旅遊",
+    "tags": "燈塔",
+    "date": "2025-07-08 00:00:00 +0800",
+    "content": "跟爸下午要去檢查助聽器, 空檔來旗津走走  燈塔  砲塔"
+  }
+  
+]
+

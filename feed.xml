@@ -1,0 +1,121 @@
+
+
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <id>/tofly.org/</id>
+  <title>tofly</title>
+  <subtitle>總有一天飛上天</subtitle>
+  <updated>2025-10-25T07:41:11+08:00</updated>
+  <author>
+    <name>vc0528</name>
+    <uri>/tofly.org/</uri>
+  </author>
+  <link rel="self" type="application/atom+xml" href="/tofly.org/feed.xml"/>
+  <link rel="alternate" type="text/html" hreflang="en"
+    href="/tofly.org/"/>
+  <generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator>
+  <rights> © 2025 vc0528 </rights>
+  <icon>/tofly.org/assets/img/favicons/favicon.ico</icon>
+  <logo>/tofly.org/assets/img/favicons/favicon-96x96.png</logo>
+
+
+  
+  <entry>
+    <title>顯示全部的vm id 和vm name</title>
+    <link href="/tofly.org/posts/pve-show-cluster-vms/" rel="alternate" type="text/html" title="顯示全部的vm id 和vm name" />
+    <published>2025-10-24T20:00:00+08:00</published>
+  
+    <updated>2025-10-24T20:00:00+08:00</updated>
+  
+    <id>/tofly.org/posts/pve-show-cluster-vms/</id>
+    <content type="text/html" src="/tofly.org/posts/pve-show-cluster-vms/" />
+    <author>
+      <name>vc0528</name>
+    </author>
+
+  
+    
+    <category term="資訊" />
+    
+    <category term="Proxmox" />
+    
+  
+
+  <summary>Proxmox VE cluster , 當有節點離線時,無法得知該節點有哪些vm  shell script 待補</summary>
+
+  </entry>
+
+  
+  <entry>
+    <title>關於tofly</title>
+    <link href="/tofly.org/posts/about/" rel="alternate" type="text/html" title="關於tofly" />
+    <published>2025-10-24T10:37:00+08:00</published>
+  
+    <updated>2025-10-24T21:06:40+08:00</updated>
+  
+    <id>/tofly.org/posts/about/</id>
+    <content type="text/html" src="/tofly.org/posts/about/" />
+    <author>
+      <name>vc0528</name>
+    </author>
+
+  
+    
+    <category term="Blogging" />
+    
+  
+
+  <summary>夢想飛行  雖然在資訊業, 但仍然渴望飛上天空</summary>
+
+  </entry>
+
+  
+  <entry>
+    <title>HPE H240 firmware 降版</title>
+    <link href="/tofly.org/posts/hpe-h240-firmware-downgrade/" rel="alternate" type="text/html" title="HPE H240 firmware 降版" />
+    <published>2025-10-23T20:00:00+08:00</published>
+  
+    <updated>2025-10-23T20:00:00+08:00</updated>
+  
+    <id>/tofly.org/posts/hpe-h240-firmware-downgrade/</id>
+    <content type="text/html" src="/tofly.org/posts/hpe-h240-firmware-downgrade/" />
+    <author>
+      <name>vc0528</name>
+    </author>
+
+  
+    
+    <category term="資訊" />
+    
+  
+
+  <summary>HPE H240 在5.x版時, 對比較新的linux os 會出現不穩定的情況, 昇到最新版的7.2更是連裝linux都不行, 比較新的kernel無法安裝, 在DL20 裝到一半風扇聲像起飛一樣.  降版只能用SPP (Service pack for HPE ProLiant)</summary>
+
+  </entry>
+
+  
+  <entry>
+    <title>旟津半日遊</title>
+    <link href="/tofly.org/posts/%E6%97%9F%E6%B4%A5/" rel="alternate" type="text/html" title="旟津半日遊" />
+    <published>2025-07-08T00:00:00+08:00</published>
+  
+    <updated>2025-07-08T00:00:00+08:00</updated>
+  
+    <id>/tofly.org/posts/%E6%97%9F%E6%B4%A5/</id>
+    <content type="text/html" src="/tofly.org/posts/%E6%97%9F%E6%B4%A5/" />
+    <author>
+      <name>vc0528</name>
+    </author>
+
+  
+    
+    <category term="旅遊" />
+    
+  
+
+  <summary>跟爸下午要去檢查助聽器, 空檔來旗津走走  燈塔  砲塔</summary>
+
+  </entry>
+
+</feed>
+
+
