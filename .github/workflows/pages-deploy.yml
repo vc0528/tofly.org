@@ -39,7 +39,7 @@ jobs:
           node-version: 20
 
       - name: Build Assets
-        run: npm ci && npm run build
+        run: npm install && npm run build
 
       - name: Build site
         run: bundle exec jekyll b -d "_site"
