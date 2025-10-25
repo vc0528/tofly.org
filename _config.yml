@@ -24,6 +24,9 @@ description: >- # used by seo meta and the atom feed
 # Fill in the protocol & hostname for your site.
 # E.g. 'https://username.github.io', note that it does not end with a '/'.
 url: "https://www.tofly.org"
+baseurl: ""
+
+
 logo: /assets/img/logo.png
 
 include:
@@ -99,6 +102,7 @@ theme_mode: # [light | dark]
 # will be added to all media resources (site avatar, posts' images, audio and video files) paths starting with '/'
 #
 # e.g. 'https://cdn.com'
+cdn:
 
 # the avatar on sidebar, support local or CORS resources
 avatar:
