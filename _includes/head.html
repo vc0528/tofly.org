@@ -123,4 +123,21 @@
   {% endif %}
 
   {% include metadata-hook.html %}
+
+  <!-- 停用所有動畫效果 -->
+  <style>
+    /* 停用所有動畫 */
+    *, *::before, *::after {
+      animation: none !important;
+      transition: none !important;
+    }
+  
+    /* 禁用瀏覽器的圖片優化（修正白條紋） */
+    img {
+      image-rendering: -webkit-optimize-contrast !important;
+      -webkit-backface-visibility: hidden !important;
+      -webkit-transform: translate3d(0, 0, 0) !important;
+      transform: translate3d(0, 0, 0) !important;
+    }
+  </style>
 </head>

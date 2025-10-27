@@ -1,0 +1,18 @@
+{% comment %}
+自動載入與文章檔名完全相同的目錄圖片
+文章：2025-10-25-travel.md
+目錄：assets/img/2025-10-25-travel/
+{% endcomment %}
+
+{% assign post_basename = page.path | split: "/" | last | replace: ".md", "" | replace: ".markdown", "" %}
+{% assign img_dir = "/assets/img/" | append: post_basename | append: "/" %}
+
+{% for image in site.static_files %}
+  {% assign image_dir = image.path | remove: image.name %}
+  {% if image_dir == img_dir %}
+    {% assign ext = image.extname | downcase %}
+    {% if ext == '.jpg' or ext == '.jpeg' or ext == '.png' or ext == '.gif' or ext == '.webp' %}
+![{{ image.basename }}]({{ image.path }})
+    {% endif %}
+  {% endif %}
+{% endfor %}
